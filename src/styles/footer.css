@@ -1,0 +1,35 @@
+.footer {
+  clear: both;
+  position: relative;
+  height: -3em;
+}
+
+.phantom {
+  display: "block";
+  height: 2vh;
+  width: "100%";
+}
+
+.font {
+  font-family: "Josefin Slab", serif;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa {
+  font-size: 20px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.5;
+  background: #007bb5;
+  color: white;
+}

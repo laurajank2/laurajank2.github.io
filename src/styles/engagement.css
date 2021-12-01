@@ -1,0 +1,63 @@
+.description {
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+}
+
+.eheader {
+  border: none;
+  background-color: transparent;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5vh;
+  margin-bottom: 2%;
+  font: bolder 10vh "Josefin Slab";
+  text-align: center;
+  list-style: none;
+}
+
+.etitle {
+  list-style: none;
+}
+
+.einfo {
+  font-size: 20px;
+}
+
+.erow {
+  display: flex;
+  padding-bottom: 4vh;
+}
+
+.ecolumninfo {
+  flex: 100%;
+  background-color: white;
+  font-size: 20px;
+  font-family: "Josefin Sans", serif;
+}
+
+.ecolumnimg {
+  flex: 25%;
+  background-color: white;
+  font-size: 20px;
+  padding: 10px;
+  font-family: "Josefin Sans", serif;
+}
+
+.edate {
+  font-size: 3vh;
+}
+
+
+@media screen and (max-width: 720px) {
+  .eheader {
+    font: bolder 10vw "Josefin Slab";
+  }
+
+  .ecolumninfo {
+    flex:none;
+  }
+
+}
+
+

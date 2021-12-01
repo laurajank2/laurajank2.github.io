@@ -1,0 +1,68 @@
+.header {
+  border: none;
+  background-color: transparent;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5vh;
+  margin-bottom: 2%;
+  font: bolder 10vh "Josefin Slab";
+  text-align: center;
+  list-style: none;
+}
+
+.title {
+  list-style: none;
+}
+
+.small-title {
+  margin-left: 5vh;
+  margin-right: 5vh;
+  font-family: "Josefin Slab", serif;
+}
+
+.info {
+  padding-left: 2vh;
+  font-size: 20px;
+}
+
+.row {
+  display: flex;
+  padding-bottom: 4vh;
+  margin-left: 5vh;
+  margin-right: 5vh;
+}
+
+.columninfo {
+  flex: 33.33%;
+  padding: 5px;
+  background-color: white;
+  font-size: 20px;
+  font-family: "Josefin Sans", serif;
+}
+
+.columnimg {
+  flex: 33.33%;
+  float: right;
+  padding: 5px;
+  background-color: white;
+  font-size: 20px;
+  font-family: "Josefin Sans", serif;
+}
+
+.date {
+  font-size: 3vh;
+}
+
+@media screen and (max-width: 768px) {
+  .columninfo {
+    flex: none;
+  }
+  
+}
+
+@media screen and (min-width: 1000px) {
+  .columninfo {
+    font-size: 30px;
+  }
+  
+}
